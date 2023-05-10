@@ -58,3 +58,9 @@ id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
 	REFERENCES treatments(id)
 );
 -- extra info: The invoice items table has a many to one relationship with both the invoices and treatments tables
+
+-- Creating indexes on all foreign keys
+
+CREATE INDEX invoices_id_index on invoices(medical_histories_id);
+CREATE INDEX patients_id_index on medical_histories(patient_id);
+CREATE INDEX treatment_id_index on invoice_items(treatment_id);
