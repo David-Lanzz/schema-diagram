@@ -61,6 +61,6 @@ id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
 
 -- Creating indexes on all foreign keys
 
-CREATE INDEX invoices_id_index on invoices(medical_histories_id);
+CREATE INDEX invoices_id_index on invoices(medical_history_id);
 CREATE INDEX patients_id_index on medical_histories(patient_id);
 CREATE INDEX treatment_id_index on invoice_items(treatment_id);
