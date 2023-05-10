@@ -1,6 +1,3 @@
-
-<img src='images\myLogo.png' alt='my logo'>
-
 ## Getting Started
 
 This repository includes files with plain SQL that can be used to recreate a database:
@@ -35,12 +32,12 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - [📝 License](#license)
 
 
-# 📖 [VET-CLINIC-DATABASE] <a name="about-project"></a>
+# 📖 [SCHEMA DIAGRAM] <a name="about-project"></a>
 
 
-**[VET-CLINIC-DATABASE]** is a database project built with sql providing useful data about animals kept in the clinic
+**[SCHEMA DIAGRAM]** This project interprets a database diagram and implement the SQL needed to build that database.
 
-## 🛠 Built With <a name="built-with">SQL AND pgADMIN</a>
+## 🛠 Built With <a name="built-with">PostgreSQL</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -53,11 +50,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[Storing of animal names]**
-- **[Storing of other aninal data]**
-- **[Filtering of animal data according to query]**
+- **[Use SQL to query data]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,7 +58,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-No live demo link yet
+- Coming soon.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,10 +67,14 @@ No live demo link yet
 
 To get a local copy up and running, follow these steps:
 
-> git clone 'https://github.com/David-Lanzz/vet-clinic-database.git'
-cd vet-clinic-database
-
-
+- Clone repository to working directory:
+```sh
+ git clone https://github.com/David-Lanzz/schema-diagram/tree/setup-database
+```
+- Navigate to cloned repo:
+```sh
+ cd setup-database
+```
 ### Prerequisites
 
 In order to run this project you need:
@@ -89,9 +86,8 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-
   cd my-folder
-  git clone https://github.com/David-Lanzz/vet-clinic-database.git
+  git clone https://github.com/David-Lanzz/schema-diagram/tree/setup-database
 
 
 ### Install
@@ -100,9 +96,9 @@ No installation needed for now
 
 ### Usage
 
-To run the project, execute the following command:
+This repository includes files with plain SQL that can be used to recreate a database:
 
-## pgAdmin or preferred sql related applications
+- Use [schema_based_on_diagram.sql](./schema_based_on_diagram.sql) to create all tables.
 
 ### Run tests
 
@@ -117,22 +113,26 @@ No deployment needed at the moment
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Authors**
+👤 **David-Lanzz**
 
 - GitHub: [@githubhandle](https://github.com/David-Lanzz/)
 - Twitter: [@twitterhandle](https://twitter.com/LanzzDavid)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/david-lanzz)
+
+👤 **Sane Myburg**
+
+- GitHub: [@githubhandle](https://github.com/SaneMyburg/)
+- Twitter: [@twitterhandle](https://twitter.com/SaneMyburg)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/sane-myburg)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[clinic employees table]**
-- [ ] **[animal owners table]**
-- [ ] **[visits table]**
+- [ ] **[None at the moment]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,7 +141,7 @@ No deployment needed at the moment
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/David-Lanzz/schema-diagram/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,21 +157,6 @@ If you like this project... Please leave a star for my project on github
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Mivroverse for assigning this project to me for the purpose of learning how to create databases
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[How did ypu filter your table to return filter out where a value is true]**
-
-  - An example code is [SELECT * FROM animals WHERE neutered = true]
-
-- **[Between the CLI and pgAdmin application which is better]**
-
-  - Due to personal preference, i will pick pgAdmin, it gives a better and less scary UI,lol
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
